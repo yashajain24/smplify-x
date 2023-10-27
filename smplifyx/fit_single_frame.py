@@ -43,7 +43,7 @@ import PIL.Image as pil_img
 from optimizers import optim_factory
 
 import fitting
-from human_body_prior.tools.model_loader import load_vposer
+from human_body_prior.models.vposer_model import Vposer
 
 
 def fit_single_frame(img,
